@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jdoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/KL16_REPAS_PATIENT_REAL/jdoc/member-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/KL16_REPAS_PATIENT_REAL/jdoc/type-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/KL16_REPAS_PATIENT_REAL/jdoc/package-search-index.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

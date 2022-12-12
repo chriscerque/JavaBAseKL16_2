@@ -1,0 +1,14 @@
+net.ent.etrs.repaspatient.commons.utils
+net.ent.etrs.repaspatient.commons.utils.exceptions
+net.ent.etrs.repaspatient.model.daos
+net.ent.etrs.repaspatient.model.daos.exceptions
+net.ent.etrs.repaspatient.model.entities
+net.ent.etrs.repaspatient.model.entities.exceptions
+net.ent.etrs.repaspatient.model.entities.references
+net.ent.etrs.repaspatient.model.facades
+net.ent.etrs.repaspatient.model.facades.exceptions
+net.ent.etrs.repaspatient.presenter
+net.ent.etrs.repaspatient.start
+net.ent.etrs.repaspatient.view
+net.ent.etrs.repaspatient.view.exceptions
+net.ent.etrs.repaspatient.view.references
