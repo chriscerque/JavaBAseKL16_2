@@ -26,7 +26,9 @@ public final class ConstantesMetier {
     public static final String MSG_PATIENT_PRENOM_LENGTH_EXCEPTION = String.format("Le nom doit contenir entre %d et %d caractères.", ConstantesMetier.PATIENT_NOM_TAILLE_MIN, ConstantesMetier.PATIENT_NOM_TAILLE_MAX);
     public static final String PATIENT_REPAS_REGIME_ALIMENTAIRE_EXCEPTION = "Le repas du patient est invalide.";
     public static final String MSG_PATIENT_REGIME_ALIMENTAIRE_EXCEPTION = "Le régime alimentaire est invalide.";
+    public static final String MSG_REPAS_REGIME_ALIMENTAIRE_EXCEPTION = "Le régime alimentaire est invalide.";
     public static final String MSG_PATIENT_REGIME_ALIMENTAIRE_EXIST_EXCEPTION = "Le régime alimentaire existe déjà.";
+    public static final String MSG_REPAS_REGIME_ALIMENTAIRE_EXIST_EXCEPTION = "Le régime alimentaire existe déjà.";
     public static final String PATIENT_REPAS_REGIME_ALIMENTAIRE_NON_COMPATIBLE_EXCEPTION = "Le repas ne correspond pas au régime alimentaire du patient.";
     public static final String MSG_PATIENT_NOM_EXCEPTION = "Le nom est non renseigné.";
     public static final String MSG_PATIENT_PRENOM_EXCEPTION = "Le prenom est non renseigné.";

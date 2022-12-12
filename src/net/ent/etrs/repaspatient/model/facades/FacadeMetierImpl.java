@@ -11,6 +11,7 @@ import net.ent.etrs.repaspatient.model.entities.Repas;
 import net.ent.etrs.repaspatient.model.entities.exceptions.PatientConstructionException;
 import net.ent.etrs.repaspatient.model.entities.exceptions.PatientException;
 import net.ent.etrs.repaspatient.model.entities.exceptions.RepasConstructionException;
+import net.ent.etrs.repaspatient.model.entities.exceptions.RepasException;
 import net.ent.etrs.repaspatient.model.entities.references.ConstantesMetier;
 import net.ent.etrs.repaspatient.model.entities.references.RegimeAlimentaire;
 import net.ent.etrs.repaspatient.model.entities.references.TypeRepas;
@@ -112,7 +113,7 @@ public class FacadeMetierImpl implements FacadeMetier {
             this.repasDao.create(r7);
             this.repasDao.create(r8);
 
-        } catch (RepasConstructionException | DaoException e) {
+        } catch (RepasConstructionException | DaoException | RepasException e) {
             throw new BusinessException(e.getMessage(), e);
         }
 
@@ -214,7 +215,8 @@ public class FacadeMetierImpl implements FacadeMetier {
             this.patientDao.create(tournesol);
             this.patientDao.create(tombR);
             this.patientDao.create(tombP);
-        } catch (PatientConstructionException | PatientException | RepasConstructionException | DaoException e) {
+        } catch (PatientConstructionException | PatientException | RepasConstructionException | DaoException |
+                 RepasException e) {
             throw new BusinessException(e.getMessage(), e);
         }
 

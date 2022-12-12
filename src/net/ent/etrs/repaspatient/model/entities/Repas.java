@@ -29,7 +29,13 @@ public class Repas implements Comparable<Repas> {
         return Collections.unmodifiableList(lstRegimeAlimentaire);
     }
 
-    public void ajouterRegimeAlimentaire(final RegimeAlimentaire regimeAlimentaire) {
+    public void ajouterRegimeAlimentaire(final RegimeAlimentaire regimeAlimentaire) throws RepasException {
+        if (Objects.isNull(regimeAlimentaire)) {
+            throw new RepasException(ConstantesMetier.MSG_REPAS_REGIME_ALIMENTAIRE_EXCEPTION);
+        }
+        if (this.lstRegimeAlimentaire.contains(regimeAlimentaire)) {
+            throw new RepasException(ConstantesMetier.MSG_REPAS_REGIME_ALIMENTAIRE_EXIST_EXCEPTION);
+        }
         this.lstRegimeAlimentaire.add(regimeAlimentaire);
     }
 
