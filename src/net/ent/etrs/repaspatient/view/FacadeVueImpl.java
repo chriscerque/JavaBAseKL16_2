@@ -9,7 +9,7 @@ import net.ent.etrs.repaspatient.model.entities.Repas;
 import net.ent.etrs.repaspatient.model.entities.exceptions.PatientConstructionException;
 import net.ent.etrs.repaspatient.model.entities.exceptions.PatientException;
 import net.ent.etrs.repaspatient.model.entities.exceptions.RegimeAlimentaireException;
-import net.ent.etrs.repaspatient.model.entities.references.RegimeAlimentaire;
+import net.ent.etrs.repaspatient.model.entities.RegimeAlimentaire;
 import net.ent.etrs.repaspatient.view.exceptions.ViewException;
 import net.ent.etrs.repaspatient.view.references.ConstantesVue;
 

@@ -3,7 +3,6 @@ package net.ent.etrs.repaspatient.model.entities;
 
 import net.ent.etrs.repaspatient.model.entities.exceptions.PatientException;
 import net.ent.etrs.repaspatient.model.entities.references.ConstantesMetier;
-import net.ent.etrs.repaspatient.model.entities.references.RegimeAlimentaire;
 
 import java.time.LocalDate;
 import java.util.*;

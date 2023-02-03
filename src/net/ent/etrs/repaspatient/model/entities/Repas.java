@@ -2,7 +2,6 @@ package net.ent.etrs.repaspatient.model.entities;
 
 import net.ent.etrs.repaspatient.model.entities.exceptions.RepasException;
 import net.ent.etrs.repaspatient.model.entities.references.ConstantesMetier;
-import net.ent.etrs.repaspatient.model.entities.references.RegimeAlimentaire;
 import net.ent.etrs.repaspatient.model.entities.references.TypeRepas;
 
 import java.time.LocalDate;

@@ -1,8 +1,9 @@
-package net.ent.etrs.repaspatient.model.entities.references;
+package net.ent.etrs.repaspatient.model.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import net.ent.etrs.repaspatient.model.entities.exceptions.RegimeAlimentaireException;
+import net.ent.etrs.repaspatient.model.entities.references.ConstantesMetier;
 
 @AllArgsConstructor
 @Getter

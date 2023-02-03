@@ -13,7 +13,7 @@ import net.ent.etrs.repaspatient.model.entities.exceptions.PatientException;
 import net.ent.etrs.repaspatient.model.entities.exceptions.RepasConstructionException;
 import net.ent.etrs.repaspatient.model.entities.exceptions.RepasException;
 import net.ent.etrs.repaspatient.model.entities.references.ConstantesMetier;
-import net.ent.etrs.repaspatient.model.entities.references.RegimeAlimentaire;
+import net.ent.etrs.repaspatient.model.entities.RegimeAlimentaire;
 import net.ent.etrs.repaspatient.model.entities.references.TypeRepas;
 import net.ent.etrs.repaspatient.model.facades.exceptions.BusinessException;
 
